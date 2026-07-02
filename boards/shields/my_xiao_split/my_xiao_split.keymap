@@ -9,9 +9,9 @@
         default_layer {
             // Scrubbed of hidden characters!
             bindings = <
-                &kp TAB    &kp X    &kp E    &kp R    &kp W          &kp Y    &kp U    &kp I     &kp O   &kp P
-                &kp CAPS   &kp F    &kp V    &kp Q    &kp G          &kp H    &kp J    &kp K     &kp L   &kp SEMI
-                &kp LSHFT  &kp T    &kp G    &kp B    &kp A          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
+                &kp S    &kp X    &kp TAB    &kp CAPS    &kp W          &kp Y    &kp U    &kp I     &kp O   &kp P
+                &kp R   &kp F    &kp V    &kp Q    &kp LSHIFT          &kp H    &kp J    &kp K     &kp L   &kp SEMI
+                &kp Z  &kp T    &kp G    &kp B    &kp A          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
                 &none      &none    &none    &none    &none          &none    &none    &none     &none   &none
                 &none      &none    &none    &none    &kp RET        &kp BSPC &kp ESC  &none     &none   &kp SPACE
             >;

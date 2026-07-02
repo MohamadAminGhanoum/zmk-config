@@ -11,7 +11,7 @@
             // Added a temporary &bt BT_CLR on the bottom row to fix your Bluetooth issue!
             bindings = <
                 &kp S    &kp X    &kp TAB      &kp CAPS     &kp W          &kp L       &kp DOT      &kp LBKT    &kp SQT         &kp O
-                &kp R    &kp F    &kp V        &kp BT_CLR        &kp DOT     &kp U       &kp J        &kp M       &kp P           &kp LSHIFT
+                &kp R    &kp F    &kp V        &bt BT_CLR        &kp DOT     &kp U       &kp J        &kp M       &kp P           &kp LSHIFT
                 &kp Z    &kp T    &kp G        &kp B        &kp A          &kp SLASH   &kp Y        &kp H       &kp N           &kp SEMI
                 &kp D    &kp C    &kp SPACE    &kp LCTRL    &kp E          &kp K       &kp COMMA    &kp BSPC    &kp RET         &kp I
                 &kp N8   &kp N9   &kp N0       &kp RSHIFT   &kp RET        &kp BSPC    &kp ESC      &kp EQUAL   &bt BT_SEL 0      &kp SPACE

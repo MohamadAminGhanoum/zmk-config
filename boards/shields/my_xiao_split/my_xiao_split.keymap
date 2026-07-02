@@ -7,13 +7,13 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // Scrubbed of hidden characters!
+            // Re-added C, D, E and replaced &none with numbers to map the matrix!
             bindings = <
-                &kp S    &kp X    &kp TAB    &kp CAPS    &kp W          &kp Y    &kp U    &kp I     &kp O   &kp P
-                &kp R   &kp F    &kp V    &kp Q    &kp LSHIFT          &kp H    &kp J    &kp K     &kp L   &kp SEMI
-                &kp Z  &kp T    &kp G    &kp B    &kp A          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
-                &none      &none    &none    &none    &none          &none    &none    &none     &none   &none
-                &none      &none    &none    &none    &kp RET        &kp BSPC &kp ESC  &none     &none   &kp SPACE
+                &kp S    &kp X    &kp TAB  &kp CAPS &kp W          &kp Y    &kp U    &kp I     &kp O   &kp P
+                &kp R    &kp F    &kp V    &kp Q    &kp LSHIFT     &kp H    &kp J    &kp K     &kp L   &kp SEMI
+                &kp Z    &kp T    &kp G    &kp B    &kp A          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
+                &kp C    &kp D    &kp E    &kp N1   &kp N2         &kp N3   &kp N4   &kp N5    &kp N6  &kp N7
+                &kp N8   &kp N9   &kp N0   &kp MINUS &kp RET       &kp BSPC &kp ESC  &kp EQUAL &kp LBKT &kp SPACE
             >;
         };
     };

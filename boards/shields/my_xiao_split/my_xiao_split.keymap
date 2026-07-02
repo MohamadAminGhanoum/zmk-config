@@ -7,12 +7,14 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            // Swapped ?, minus, and Æ. Changed & to Enter, and one Space to Backspace.
+            // Added a temporary &bt BT_CLR on the bottom row to fix your Bluetooth issue!
             bindings = <
-                &kp TAB    &kp W      &kp E      &kp R      &kp T        &kp Y      &kp U      &kp I      &kp O      &kp P
-                &kp CAPS   &kp S      &kp D      &kp F      &kp G        &kp H      &kp J      &kp K      &kp L      &kp SEMI
-                &kp LSHIFT &kp Z      &kp X      &kp C      &kp V        &kp B      &kp N      &kp M      &kp SLASH  &kp RA(A)
-                &kp LCTRL  &kp MINUS  &kp RET    &none      &none        &none      &none      &none      &none      &none
-                &kp N8     &kp N9     &kp N0     &kp RSHIFT &kp RET      &kp BSPC   &kp ESC    &kp EQUAL  &kp LBKT   &kp SPACE
+                &kp S    &kp X    &kp TAB      &kp CAPS     &kp W          &kp L       &kp DOT      &kp LBKT    &kp SQT         &kp O
+                &kp R    &kp F    &kp V        &kp Q        &kp LSHIFT     &kp U       &kp J        &kp M       &kp P           &kp LSHIFT
+                &kp Z    &kp T    &kp G        &kp B        &kp A          &kp SLASH   &kp Y        &kp H       &kp N           &kp SEMI
+                &kp D    &kp C    &kp SPACE    &kp LCTRL    &kp E          &kp K       &kp COMMA    &kp BSPC    &kp RET         &kp I
+                &kp N8   &kp N9   &kp N0       &kp RSHIFT   &kp RET        &kp BSPC    &kp ESC      &kp EQUAL   &bt BT_CLR      &kp SPACE
             >;
         };
     };

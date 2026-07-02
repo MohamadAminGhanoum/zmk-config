@@ -9,9 +9,9 @@
         default_layer {
             // This is your physical layout. Edit the &kp codes to change what a key does!
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T          &kp Y    &kp U    &kp I     &kp O   &kp P
-                &kp A    &kp S    &kp D    &kp F    &kp G          &kp H    &kp J    &kp K     &kp L   &kp SEMI
-                &kp Z    &kp X    &kp C    &kp V    &kp B          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
+                &kp S    &kp X    &kp E    &kp R    &kp W          &kp Y    &kp U    &kp I     &kp O   &kp P
+                &kp R    &kp F    &kp V    &kp Q    &kp G          &kp H    &kp J    &kp K     &kp L   &kp SEMI
+                &kp Z    &kp T    &kp G    &kp B    &kp Aw          &kp N    &kp M    &kp COMMA &kp DOT &kp SLASH
                 &none    &none    &none    &none    &none          &none    &none    &none     &none   &none
                 &none    &none    &none    &kp SPACE &kp RET       &kp BSPC &kp ESC  &none     &none   &none
             >;

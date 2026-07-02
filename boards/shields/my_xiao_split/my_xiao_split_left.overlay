@@ -1,1 +1,11 @@
 #include "my_xiao_split.dtsi"
+
+&kscan0 {
+    row-gpios
+        = <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio0 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+        ;
+};

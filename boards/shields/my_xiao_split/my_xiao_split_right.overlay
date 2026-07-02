@@ -1,4 +1,14 @@
 #include "my_xiao_split.dtsi"
+#include <dt-bindings/gpio/gpio.h>
+
+&kscan0 {
+    row-gpios
+        = <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&gpio0 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; 
+};
 
 &default_transform {
     col-offset = <5>;

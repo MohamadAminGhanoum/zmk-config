@@ -9,11 +9,11 @@
         default_layer {
             // Replaced custom language codes with standard US HID codes for OS translation
             bindings = <
-                &kp S    &kp X    &kp TAB      &kp CAPS     &kp W          &kp P       &kp DOT      &kp LBKT    &kp SQT   &kp O
-                &kp R    &kp F    &kp V        &kp Q        &kp LSHIFT     &kp U       &kp J        &kp M       &kp L     &kp SEMI
-                &kp Z    &kp T    &kp G        &kp B        &kp A          &kp MINUS   &kp Y        &kp H       &kp N     &kp SLASH
-                &kp D    &kp C    &kp SPACE    &kp LCTRL    &kp E          &kp K       &kp COMMA    &kp SPACE   &kp N6    &kp N7
-                &kp N8   &kp N9   &kp N0       &kp SEMI     &kp RET        &kp BSPC    &kp ESC      &kp EQUAL   &kp LBKT  &kp SPACE
+                &kp S    &kp X    &kp TAB      &kp CAPS     &kp W          &kp L       &kp DOT      &kp LBKT    &kp SQT   &kp O
+                &kp R    &kp F    &kp V        &kp Q        &kp LSHIFT     &kp U       &kp J        &kp M       &kp P     &kp SEMI
+                &kp Z    &kp T    &kp G        &kp B        &kp A          &kp SEMI   &kp Y        &kp H       &kp N     &kp SLASH
+                &kp D    &kp C    &kp SPACE    &kp LCTRL    &kp E          &kp K       &kp COMMA    &kp SPACE   &kp N6    &kp I
+                &kp N8   &kp N9   &kp N0       &kp RSHIFT     &kp RET        &kp BSPC    &kp ESC      &kp EQUAL   &kp LBKT  &kp SPACE
             >;
         };
     };
